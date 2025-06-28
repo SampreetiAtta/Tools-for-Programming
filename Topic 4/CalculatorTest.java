@@ -30,7 +30,7 @@ public class CalculatorTest {
     public void testExponentiation() {
         Calculator calc = new Calculator();
         calc.add(2);
-        calc.exponent(3); // 2^3 = 8
+        calc.exponent(3); 
         assertEquals(8, calc.getResult());
     }
 
@@ -46,7 +46,7 @@ public class CalculatorTest {
     public void testExponentZero() {
         Calculator calc = new Calculator();
         calc.add(5);
-        calc.exponent(0); // should be 1
+        calc.exponent(0); 
         assertEquals(1, calc.getResult());
     }
 }
